@@ -1,0 +1,53 @@
+{
+    "name": "berecont/contao-scroll-to-top-bundle",
+    "description": "Frontend Modul zur Darstellung eines Buttons um zum Seitenanfang zu scrollen.",
+    "keywords": [
+        "contao",
+        "bundle",
+        "tag 3",
+        "tag 4"
+    ],
+    "type": "contao-bundle",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "beRnhard renner",
+            "email": "bernhard@werbepanorama.at",
+            "homepage": "https://werbepanorama.at",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/berecont/contao-scroll-to-top-bundle/issues",
+        "source": "https://github.com/berecont/contao-scroll-to-top-bundle"
+    },
+    "require": {
+        "php": "^8.0",
+        "contao/core-bundle": "^4.13 || ^5.0"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.3.1",
+        "contao/test-case": "^4.5",
+        "phpunit/phpunit": "^9.3",
+        "symfony/http-client": "5.4.*",
+        "symfony/phpunit-bridge": "^5.4",
+        "contao/easy-coding-standard": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Berecont\\ContaoScrollToTopBundle\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "contao-components/installer": true,
+            "contao/manager-plugin": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "contao-community-alliance/composer-plugin": true
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Berecont\\ContaoScrollToTopBundle\\ContaoManager\\Plugin"
+    },
+    "version": "1.0.0"
+}

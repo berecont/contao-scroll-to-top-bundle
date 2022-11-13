@@ -1,0 +1,7 @@
+.github
+docs/
+tests/
+.editorconfig
+.gitattributes
+.travis.yml
+phpunit.xml.dist
